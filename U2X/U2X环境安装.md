@@ -19,7 +19,7 @@
 
 进入 GHS 安装包根目录，双击 `ginstall.exe`。
 
-![](picture/企业微信截图_17851622269793.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851622269793.png)
 
 ### 2. 执行默认安装
 
@@ -38,13 +38,13 @@ C:\ghs\multi_716d
 
 出现 `Installation complete` 后，点击 **Exit**。发布说明可以按需查看，不需要在此时启动 MULTI。
 
-![](picture/企业微信截图_17851651786714.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851651786714.png)
 
 ### 4. 安装 MULTI 7.1.6 补丁
 
 进入安装介质中的 `multi-v7.1.6-patch` 目录，运行 `install.bat`。
 
-![](picture/企业微信截图_17851667709709.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851667709709.png)
 
 根据提示输入 MULTI 安装目录：
 
@@ -52,7 +52,7 @@ C:\ghs\multi_716d
 C:\ghs\multi_716d
 ```
 
-![](picture/企业微信截图_17851668511820.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851668511820.png)
 
 脚本正常结束且未显示错误，即表示补丁安装完成。
 
@@ -62,13 +62,13 @@ C:\ghs\multi_716d
 
 回到 `RH850-U2A Demo板资料包` 根目录，运行 `TeampoU2AScript.exe`。该脚本位于资料包根目录，不在 GHS 安装目录中。
 
-![](picture/企业微信截图_17851673755863.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851673755863.png)
 
 ### 2. 选择“安装环境”
 
 在命令行菜单中输入 `2`，开始安装 AUTOSAR/MCAL 环境。
 
-![](picture/企业微信截图_17851674911393.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851674911393.png)
 
 安装目录使用：
 
@@ -76,11 +76,11 @@ C:\ghs\multi_716d
 D:\MCAL
 ```
 
-![](picture/企业微信截图_17851677658467.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851677658467.png)
 
 当所有解压进度均达到 `100%`，并显示“环境已安装到 `D:\MCAL`”时，按任意键退出。
 
-![](picture/企业微信截图_17851678656377.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851678656377.png)
 
 安装完成后，`D:\MCAL` 下应包含 MCAL、Project、Vector、Demo 板资料包及配置脚本。
 
@@ -94,13 +94,13 @@ D:\MCAL
 D:\MCAL\TeampoU2AScript.exe
 ```
 
-![](picture/企业微信截图_17851680344021.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851680344021.png)
 
 ### 2. 新建工程
 
 选择 `2. 新建工程`。
 
-![](picture/企业微信截图_1785168105436.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1785168105436.png)
 
 输入工程名，例如：
 
@@ -108,7 +108,7 @@ D:\MCAL\TeampoU2AScript.exe
 U2A8_Demo
 ```
 
-![](picture/企业微信截图_17851682091440.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851682091440.png)
 
 依次选择芯片类型和封装。U2A8 292-pin/FABG 的选择为：
 
@@ -117,9 +117,9 @@ U2A8_Demo
 芯片型号：5（EABG/FABG，292-pin）
 ```
 
-![](picture/企业微信截图_17851683334918.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851683334918.png)
 
-![](picture/企业微信截图_17851683744166.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851683744166.png)
 
 脚本提示工程创建完成后退出。
 
@@ -135,15 +135,15 @@ U2A8_Demo
 D:\MCAL\Project\U2A8_Demo\TeampoU2AScript.exe
 ```
 
-![](picture/企业微信截图_17851684822334.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851684822334.png)
 
 选择 `2. 选中工程`，脚本会启动与该工程匹配的 DaVinci Configurator。
 
-![](picture/企业微信截图_17851686394515.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17851686394515.png)
 
 首次启动时会显示安全提示，阅读后选择 **I accept**。
 
-![](picture/企业微信截图_1785168751104.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1785168751104.png)
 
 ### 2. 打开 `u2a.dpa`
 
@@ -153,7 +153,7 @@ D:\MCAL\Project\U2A8_Demo\TeampoU2AScript.exe
 D:\MCAL\Project\U2A8_Demo\tools\Mcal\u2a.dpa
 ```
 
-![](picture/企业微信截图_1785169048497.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1785169048497.png)
 
 如果提示 `Some paths in the DPA file are not valid`：
 
@@ -171,7 +171,7 @@ D:\MCAL\Project\U2A8_Demo\tools\Mcal\u2a.dpa
 
 点击工具栏中的验证和生成按钮，或选择 **Project → Generate**。
 
-![](picture/企业微信截图_1785226592760.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1785226592760.png)
 
 在 Generate 窗口中保持所需 MCAL 模块勾选，点击 **Generate**。所有模块显示绿色对勾且没有 Error，即表示代码生成完成。
 
@@ -187,7 +187,7 @@ D:\MCAL\Project\U2A8_Demo\default.gpj
 
 `default.gpj` 是整个 GHS 工程的入口；`u2a_mcal.gpj` 是子工程，`debug.gpc` 和 `release.gpc` 是连接配置文件。
 
-![](picture/企业微信截图_17852265365107.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17852265365107.png)
 
 首次启动 MULTI 时会自动打开 Licensing Wizard。
 
@@ -199,7 +199,7 @@ D:\MCAL\Project\U2A8_Demo\default.gpj
 
 选择第四项 **Specify the network location of License Managers**，点击 **Next**。
 
-![](picture/企业微信截图_1785228025136.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1785228025136.png)
 
 
 确认后，配置会写入 MULTI 和 Compiler 的 `license.cfg`。
@@ -242,7 +242,7 @@ Warning 可以后续逐项分析，但不能存在 Error。
 D:\Vector\CBD2100679_D00_U2A8_292_V430300_Practice
 ```
 
-![](picture/企业微信截图_17852930146700.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17852930146700.png)
 
 点击 **Extract**。如果弹出加密文件密码窗口，输入交付方提供的解压密码；解压完成后窗口会自动关闭。
 
@@ -266,7 +266,7 @@ D:\MCAL\AUTOSAR_RH850_U2Ax_MCAL_Ver43.03.00\scripts
 
 运行 `CopyCfgFile.bat`。
 
-![](picture/企业微信截图_17853033932557.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17853033932557.png)
 
 输入本套 DaVinci 的 BSWMD 目录：
 
@@ -274,7 +274,7 @@ D:\MCAL\AUTOSAR_RH850_U2Ax_MCAL_Ver43.03.00\scripts
 D:\Vector\CBD2100679_D00_U2A8_292_V430300_Practice\Components\MSR_Vector_SLP4\BSWMD
 ```
 
-![](picture/企业微信截图_17853036103711.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17853036103711.png)
 
 随后选择：
 
@@ -283,7 +283,7 @@ D:\Vector\CBD2100679_D00_U2A8_292_V430300_Practice\Components\MSR_Vector_SLP4\BS
 芯片型号：5（EABG/FABG，292-pin）
 ```
 
-![](picture/企业微信截图_17853039148248.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17853039148248.png)
 
 每个模块均显示“已复制 1 个文件”，最后显示 `Copy completed!`，表示定义文件复制成功。
 
@@ -301,7 +301,7 @@ D:\MCAL\Project\template
 U2A8_Manual_Practice
 ```
 
-![](picture/企业微信截图_17853042123934.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17853042123934.png)
 
 ### 4. 修改 `u2a.dpa`
 
@@ -315,9 +315,9 @@ D:\MCAL\Project\U2A8_Manual_Practice\tools\Mcal\u2a.dpa
 
 将文件中原工程目录替换为 `U2A8_Manual_Practice`，并确认 DaVinci/BSWMD 路径指向本节解压的 `...U2A8_292_V430300_Practice` 目录。替换完成后保存。
 
-![](picture/企业微信截图_17853050048325.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17853050048325.png)
 
-![](picture/企业微信截图_17853051034586.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17853051034586.png)
 
 ### 5. 修改实际代码生成脚本
 
@@ -361,7 +361,7 @@ D:\Vector\CBD2100679_D00_U2A8_292_V430300_Practice\DaVinciConfigurator\Core\DaVi
 D:\MCAL\Project\U2A8_Manual_Practice\tools\Mcal\u2a.dpa
 ```
 
-![](picture/企业微信截图_17853068648319.png)
+![](picture/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17853068648319.png)
 
 然后选择 **Project → Generate**。所有模块生成成功后，再打开练习工程根目录中的 `default.gpj`，执行 **Rebuild default.gpj**，确认 `0 Errors` 并生成 `.elf` 文件。
 

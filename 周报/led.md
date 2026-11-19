@@ -1,0 +1,113 @@
+```c
+
+* DISCLAIMER
+* This software is supplied by Renesas Electronics Corporation and is only intended for use with Renesas products.
+* No other uses are authorized. This software is owned by Renesas Electronics Corporation and is protected under all
+* applicable laws, including copyright laws.
+* THIS SOFTWARE IS PROVIDED "AS IS" AND RENESAS MAKES NO WARRANTIES REGARDING THIS SOFTWARE, WHETHER EXPRESS, IMPLIED
+* OR STATUTORY, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+* NON-INFRINGEMENT.  ALL SUCH WARRANTIES ARE EXPRESSLY DISCLAIMED.TO THE MAXIMUM EXTENT PERMITTED NOT PROHIBITED BY
+* LAW, NEITHER RENESAS ELECTRONICS CORPORATION NOR ANY OF ITS AFFILIATED COMPANIES SHALL BE LIABLE FOR ANY DIRECT,
+* INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES FOR ANY REASON RELATED TO THIS SOFTWARE, EVEN IF RENESAS OR
+* ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+* Renesas reserves the right, without notice, to make changes to this software and to discontinue the availability
+* of this software. By using this software, you agree to the additional terms and conditions found by accessing the
+* following link:
+* http://www.renesas.com/disclaimer
+*
+* Copyright (C) 2018, 2025 Renesas Electronics Corporation. All rights reserved.
+***********************************************************************************************************************/
+
+/***********************************************************************************************************************
+* File Name        : r_cg_main.c
+* Version          : 1.0.151
+* Device(s)        : R7F701684
+* Description      : This file implements main function.
+***********************************************************************************************************************/
+/***********************************************************************************************************************
+Pragma directive
+***********************************************************************************************************************/
+/* Start user code for pragma. Do not edit comment generated here */
+/* End user code. Do not edit comment generated here */
+
+/***********************************************************************************************************************
+Includes
+***********************************************************************************************************************/
+#include "r_smc_entry.h"
+/* Start user code for include. Do not edit comment generated here */
+
+/* End user code. Do not edit comment generated here */
+
+/***********************************************************************************************************************
+Global variables and functions
+***********************************************************************************************************************/
+/* Start user code for global. Do not edit comment generated here */
+void delay_loop(volatile unsigned long count);
+int state = 0;
+/* End user code. Do not edit comment generated here */
+void r_main_userinit(void);
+
+/***********************************************************************************************************************
+* Function Name: main
+* Description  : This function implements main function.
+* Arguments    : None
+* Return Value : None
+***********************************************************************************************************************/
+void main(void)
+{
+    r_main_userinit();
+    /* Start user code for main. Do not edit comment generated here */
+     while (1)
+    {
+	    if (state <= 2 || state == 5){
+		  PORT.P8 = _PORT_Pn5_OUTPUT_HIGH;
+		  
+	    }else{PORT.P8 = _PORT_Pn5_OUTPUT_LOW;
+	    }
+	    if (state >=2 ){
+		  PORT.P0 = _PORT_Pn14_OUTPUT_HIGH;
+	    }else{PORT.P0 = _PORT_Pn14_OUTPUT_LOW;
+	    }
+	    
+	    delay_loop(1000000);
+	    state++;
+	    if(state>5)
+	    {
+		   state=0;
+	    }
+		    
+		    
+	    
+	    
+	    
+       
+    }
+    
+    /* End user code. Do not edit comment generated here */
+}
+
+/***********************************************************************************************************************
+* Function Name: r_main_userinit
+* Description  : This function adds user code before implementing main function.
+* Arguments    : None
+* Return Value : None
+***********************************************************************************************************************/
+void r_main_userinit(void)
+{
+    DI();
+    /* Start user code for r_main_userinit. Do not edit comment generated here */
+    /* End user code. Do not edit comment generated here */
+    R_Systeminit();
+    EI();
+}
+
+/* Start user code for adding. Do not edit comment generated here */
+void delay_loop(volatile unsigned long count)
+{
+    while (count > 0U)
+    {
+        count--;
+    }
+}
+/* End user code. Do not edit comment generated here */
+```
